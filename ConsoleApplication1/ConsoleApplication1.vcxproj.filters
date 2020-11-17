@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="battle.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="battle.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Cpp">
+      <UniqueIdentifier>{6a40fe4e-88d8-403b-a6b3-069d64cf5c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{515a71a9-a816-4c9f-a50f-66e38a503e30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
