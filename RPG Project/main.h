@@ -3,6 +3,10 @@
 
 struct main {
 
-	void acceptLoad(std::string playerName, int playerLevel);
+	std::string playerName;
+	int playerLevel;
+
+	void acceptLoad(std::string _playerName, int _playerLevel);
+	void mainMenu();
 
 };
