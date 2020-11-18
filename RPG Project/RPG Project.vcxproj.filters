@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Slaves">
+      <UniqueIdentifier>{e7b1416b-1152-4066-9e40-cc84ad306353}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -33,5 +36,28 @@
     <ClCompile Include="savegame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="General.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adventures.h">
+      <Filter>Header Files\Slaves</Filter>
+    </ClInclude>
+    <ClInclude Include="battles.h">
+      <Filter>Header Files\Slaves</Filter>
+    </ClInclude>
+    <ClInclude Include="inventory.h">
+      <Filter>Header Files\Slaves</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files\Slaves</Filter>
+    </ClInclude>
+    <ClInclude Include="savegame.h">
+      <Filter>Header Files\Slaves</Filter>
+    </ClInclude>
+    <ClInclude Include="shop.h">
+      <Filter>Header Files\Slaves</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

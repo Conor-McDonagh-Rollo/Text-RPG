@@ -146,6 +146,15 @@
     <ClCompile Include="savegame.cpp" />
     <ClCompile Include="shop.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="adventures.h" />
+    <ClInclude Include="battles.h" />
+    <ClInclude Include="General.h" />
+    <ClInclude Include="inventory.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="savegame.h" />
+    <ClInclude Include="shop.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
