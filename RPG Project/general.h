@@ -3,6 +3,7 @@
 //c++ libraries
 #include <iostream>
 #include <string>
+#include <cctype>
 
 //my libraries
 #include "adventures.h"
