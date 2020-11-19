@@ -45,6 +45,7 @@ void main::mainMenu()
 		break;
 	case 4:
 		//do shop stuff
+
 		break;
 	case 5:
 		exit(0);
