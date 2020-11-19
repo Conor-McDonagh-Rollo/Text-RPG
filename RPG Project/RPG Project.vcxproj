@@ -143,8 +143,10 @@
     <ClCompile Include="battles.cpp" />
     <ClCompile Include="inventory.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="player.cpp" />
     <ClCompile Include="savegame.cpp" />
     <ClCompile Include="shop.cpp" />
+    <ClCompile Include="shopkeeper.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="adventures.h" />
@@ -152,8 +154,10 @@
     <ClInclude Include="General.h" />
     <ClInclude Include="inventory.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="player.h" />
     <ClInclude Include="savegame.h" />
     <ClInclude Include="shop.h" />
+    <ClInclude Include="shopkeeper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

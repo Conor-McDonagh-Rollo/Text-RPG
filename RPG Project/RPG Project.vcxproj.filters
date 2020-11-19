@@ -36,6 +36,12 @@
     <ClCompile Include="savegame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="shopkeeper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="General.h">
@@ -57,6 +63,12 @@
       <Filter>Header Files\Slaves</Filter>
     </ClInclude>
     <ClInclude Include="shop.h">
+      <Filter>Header Files\Slaves</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files\Slaves</Filter>
+    </ClInclude>
+    <ClInclude Include="shopkeeper.h">
       <Filter>Header Files\Slaves</Filter>
     </ClInclude>
   </ItemGroup>

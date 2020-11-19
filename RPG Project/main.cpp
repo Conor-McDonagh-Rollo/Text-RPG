@@ -1,12 +1,11 @@
 #include "General.h"
+
 savegame game;
 adventures adventure;
 battles battle;
 inventory inv;
 shop sh;
-//declare the global variables
-std::string playerName;
-int playerLevel;
+player p;
 
 int main() {
 
@@ -17,8 +16,8 @@ int main() {
 void main::acceptLoad(std::string _playerName, int _playerLevel)
 {
 	//assign the saved variables to the global variables
-	playerName = _playerName;
-	playerLevel = _playerLevel;
+	p.playerName = _playerName;
+	p.playerLevel = _playerLevel;
 	std::cout << "Loaded save file successfuly!\n";
 	system("Pause");
 	mainMenu(); //start the game
@@ -29,8 +28,8 @@ void main::mainMenu()
 	//main menu loop
 	system("CLS");
 	int ans;
-	std::cout << "\nWelcome to Generic Text RPG!\nName: " << playerName << "\nLevel: " << playerLevel << std::endl;
-	std::cout << "\n1) Adventure\n2) Explore\n3) Inventory\n4) Shop\n5) Quit\n\n" << playerName << ": ";
+	std::cout << "\nWelcome to Generic Text RPG!\nName: " << p.playerName << "\nLevel: " << p.playerLevel << std::endl;
+	std::cout << "\n1) Adventure\n2) Explore\n3) Inventory\n4) Shop\n5) Quit\n\n" << p.playerName << ": ";
 	std::cin >> ans;
 	switch (ans) {
 

@@ -2,6 +2,6 @@
 
 struct inventory {
 
-
+	void listInventory();
 
 };

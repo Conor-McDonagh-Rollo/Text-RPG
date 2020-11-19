@@ -1,0 +1,28 @@
+Marty & Jody: Combat
+Alex & Willow: Story/Adventures!
+Conor & Dylan: Saving/Shop
+
+Combat:
+
+//method with some parameters that will take in all of the enemy's stats
+//Player stats will be stored in global variables
+/*
+
+missThreshold = Time it takes to miss your attack
+blockThreshold = Time it takes for you to try and block
+enemyHealth = The health of the monster
+enemyName = The name of the monster
+enemyXP = how much xp does the enemy drop
+enemyDrops = Items they drop
+enemyAtckMax = max damage
+enemyAtckMin = minimum damage
+
+*/
+
+
+Shop:
+
+
+
+
+Story:
