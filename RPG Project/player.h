@@ -10,3 +10,4 @@ struct player {
 	void playerThing();
 
 };
+extern player pl;

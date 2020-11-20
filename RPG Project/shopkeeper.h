@@ -6,3 +6,5 @@ struct shopkeeper {
 	void sellItem();
 
 };
+
+extern shopkeeper sk;

@@ -5,3 +5,5 @@ struct inventory {
 	void listInventory();
 
 };
+
+extern inventory inv;

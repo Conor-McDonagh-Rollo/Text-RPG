@@ -1,15 +1,13 @@
 //Shop.cpp : For the Console Application
+
 #include "General.h"
-player p;
-shopkeeper sk;
-inventory inv;
 
 
-void shopMenu()
+void shop::shopMenu()
 {
-
+	system("CLS");
 	int ans; //Menu Navagation
-	std::cout << "Hi" << p.playerName << ". Here's my selection of goods." << "\n";
+	std::cout << "Hi " << pl.playerName << ". Here's my selection of goods." << "\n";
 	std::cout << "1: Purchase Items. 2: Sell Items. 3: List your items. 4: Show gold. 5: Exit" << "\n";
 
 	std::cin >> ans;
@@ -30,7 +28,7 @@ void shopMenu()
 		break;
 
 	case 4:
-		std::cout << "you have" << p.gp << "gold coins" << "\n";
+		std::cout << "you have" << pl.gp << "gold coins" << "\n";
 		break;
 
 	case 5:
@@ -43,16 +41,15 @@ void shopMenu()
 	}
 
 	shopMenu();
+} 
 
 	/*
 	//This could work or Fail extremely
-	Player.Additem("Mace", 30);
-	player.ListInventory();
+	inventory.Additem("Mace", 30);
+	inventory.ListInventory();
 	std::cout << player.GetGold();
 	*/
 
-}
-				 
 
 
 

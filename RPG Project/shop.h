@@ -2,6 +2,6 @@
 
 struct shop {
 
-
+	void shopMenu();
 
 };

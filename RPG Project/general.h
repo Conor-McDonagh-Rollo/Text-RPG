@@ -19,9 +19,3 @@
 #include "shopkeeper.h"
 #include "player.h"
 
-savegame game;
-adventures adventure;
-battles battle;
-inventory inv;
-shop sh;
-player p;
