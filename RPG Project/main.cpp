@@ -3,11 +3,12 @@
 savegame game;
 adventures adventure;
 battles battle;
-shop sh;
 //global definitions
+shop sh;
 player pl;
 shopkeeper sk;
 inventory inv;
+generateshop gs;
 
 int main() {
 
@@ -47,6 +48,9 @@ void main::mainMenu()
 		//do inventory stuff
 		break;
 	case 4:
+		gs.Generate();
+		std::cout << gs.items;
+		system("Pause");
 		sh.shopMenu();
 		break;
 	case 5:

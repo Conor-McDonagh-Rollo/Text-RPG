@@ -2,7 +2,6 @@
 
 #include "General.h"
 
-
 void shop::shopMenu()
 {
 	system("CLS");

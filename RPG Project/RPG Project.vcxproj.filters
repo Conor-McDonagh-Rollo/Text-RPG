@@ -42,6 +42,9 @@
     <ClCompile Include="player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="generateshop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="General.h">
@@ -69,6 +72,9 @@
       <Filter>Header Files\Slaves</Filter>
     </ClInclude>
     <ClInclude Include="shopkeeper.h">
+      <Filter>Header Files\Slaves</Filter>
+    </ClInclude>
+    <ClInclude Include="generateshop.h">
       <Filter>Header Files\Slaves</Filter>
     </ClInclude>
   </ItemGroup>

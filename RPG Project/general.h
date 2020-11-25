@@ -15,6 +15,7 @@
 #include "main.h"
 #include "savegame.h"
 #include "shop.h"
+#include "generateshop.h"
 
 #include "shopkeeper.h"
 #include "player.h"

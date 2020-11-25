@@ -29,6 +29,7 @@ void savegame::load()
 
 void savegame::create()
 {
+
 	std::ofstream writer("Data/Player.dat"); //create player data...
 	std::cout << "\nPlease enter your name: "; //make a username
 	std::cin >> loadPlayerName;

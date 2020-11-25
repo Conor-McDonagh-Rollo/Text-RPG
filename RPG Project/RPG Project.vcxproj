@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="adventures.cpp" />
     <ClCompile Include="battles.cpp" />
+    <ClCompile Include="generateshop.cpp" />
     <ClCompile Include="inventory.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="player.cpp" />
@@ -152,6 +153,7 @@
     <ClInclude Include="adventures.h" />
     <ClInclude Include="battles.h" />
     <ClInclude Include="General.h" />
+    <ClInclude Include="generateshop.h" />
     <ClInclude Include="inventory.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="player.h" />
